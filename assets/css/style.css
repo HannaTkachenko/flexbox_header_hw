@@ -13,7 +13,6 @@
   padding: 0.75em;
   flex-flow: row wrap;
   align-items: center;
-  justify-content: space-between;
   align-content: space-around;
   background-color: #262626;
 
@@ -23,6 +22,10 @@
 }
 .header > * {
   margin: 10px 20px;
+}
+.header,
+.nav-list {
+  justify-content: space-between;
 }
 a,
 button {
@@ -50,8 +53,7 @@ ul {
   min-width: 50%;
   width: 100%;
   max-width: 100%;
-  justify-content: space-between;
-}
+  }
 
 .nav-list-link,
 .btn-contact {
@@ -63,4 +65,9 @@ ul {
   padding: 1em;
   border: 2px solid white;
   border-radius: 5px;
+}
+.text-overflow{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
