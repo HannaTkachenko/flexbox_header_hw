@@ -14,11 +14,12 @@
   flex-flow: row wrap;
   align-items: center;
   align-content: space-around;
-  background-color: #262626;
-
+  
   position: absolute;
   right: 0;
   left: 0;
+  
+  background-color: #262626;
 }
 .header > * {
   margin: 10px 20px;
@@ -29,10 +30,10 @@
 }
 a,
 button {
+  text-decoration: none;
   background-color: #262626;
   color: aliceblue;
   font-weight: bold;
-  text-decoration: none;
 }
 .logo {
   font-size: 1.3rem;
@@ -53,7 +54,7 @@ ul {
   min-width: 50%;
   width: 100%;
   max-width: 100%;
-  }
+}
 
 .nav-list-link,
 .btn-contact {
@@ -66,7 +67,7 @@ ul {
   border: 2px solid white;
   border-radius: 5px;
 }
-.text-overflow{
+.text-overflow {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
